@@ -63,7 +63,7 @@ const eventData = {
     nonTechnical: [
       {
         id: "mad-ad",
-        name: "Mad-AD",
+        name: "Mad-Ad",
         category: "Non-Technical",
         shortDesc: "Create hilarious advertisements",
         fullDesc: "Create funny and creative advertisements for unusual products. Let your imagination run wild!"
