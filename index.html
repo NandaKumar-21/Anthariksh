@@ -1,284 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anthariksh - 2025 | The Galaxy of Talents</title>
-    <!-- Google Fonts for space theme -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Exo+2:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anthariksha 2025 - Events</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Animated starfield background -->
-    <div class="starfield">
-        <div class="stars stars-small"></div>
-        <div class="stars stars-medium"></div>
-        <div class="stars stars-large"></div>
+  <header class="main-header">
+    <img src="images/kec.png" alt="College Logo" class="logo"> <div class="header-title-section">
+      <h1 class="college-name">KUPPAM ENGINEERING COLLEGE </h1>
+        <h4 class="college-name"> (AUTONOMOUS)</h4>
+      <h2 class="dept">DEPARTMENT OF COMPUTER SCIENCE& ENGINEERING</h2>
+      <p class="sy">organizes</p>
+
     </div>
+    <img src="images/naac.png" alt="NAAC Badge" class="naac-badge"> </header>
+    <center><h2 class="antha">ANTHARIKSHA - 2K25</h2></center>
 
-    <!-- HOME PAGE -->
-    <div id="home-page" class="page active">
-        <div class="container">
-            <header class="hero">
-                <div class="hero-content">
-                    <h1 class="hero-title">
-                        <span class="gradient-text">ANTHARIKSH</span>
-                        <span class="year-badge">2025</span>
-                    </h1>
-                    <p class="hero-tagline">The Galaxy of Talents, Breaking Barriers with Brilliance</p>
-                    <p class="hero-organizer">Organized by Department of CSE in association with Coding Club</p>
-                    <div class="hero-particles"></div>
-                </div>
-            </header>
+  <main>
+    <section class="events-section">
+      <h2 class="section-title">Technical Events</h2>
+      <div class="event-grid" id="techEventGrid"></div>
+    </section>
 
-            <main>
-                <!-- Technical Events Section -->
-                <section class="events-section">
-                    <h2 class="section-title">
-                        <span class="title-icon">🚀</span>
-                        Technical Events
-                        <div class="title-glow"></div>
-                    </h2>
-                    <div class="events-scroll-container">
-                        <div id="technical-events" class="events-grid"></div>
-                    </div>
-                </section>
+    <section class="events-section">
+      <h2 class="section-title">Non-Technical Events</h2>
+      <div class="event-grid" id="nonTechEventGrid"></div>
+    </section>
+  </main>
 
-                <!-- Non-Technical Events Section -->
-                <section class="events-section">
-                    <h2 class="section-title">
-                        <span class="title-icon">🌟</span>
-                        Non-Technical Events
-                        <div class="title-glow"></div>
-                    </h2>
-                    <div class="events-scroll-container">
-                        <div id="non-technical-events" class="events-grid"></div>
-                    </div>
-                </section>
-            </main>
-        </div>
-    </div>
+  <footer>
+    <p>© 2025 Anthariksha - 2K25 Symposium | Department of CSE | KEC</p>
+  </footer>
 
-    <!-- EVENT DETAIL PAGE -->
-    <div id="event-detail-page" class="page">
-        <div class="container">
-            <header class="page-header">
-                <button id="back-to-home" class="btn btn--secondary btn--glow">
-                    <span class="btn-icon">←</span>
-                    Back to Events
-                </button>
-                <h1 id="event-title" class="gradient-text">Event Title</h1>
-                <span id="event-category" class="status neon-glow"></span>
-            </header>
-
-            <main>
-                <div class="card cosmic-card">
-                    <div class="card__body">
-                        <p id="event-description">Event description will appear here...</p>
-                        <button id="register-btn" class="btn btn--primary btn--lg cosmic-btn">
-                            <span class="btn-text">Register Now</span>
-                            <span class="btn-glow"></span>
-                        </button>
-                    </div>
-                </div>
-            </main>
-        </div>
-    </div>
-
-    <!-- REGISTRATION FORM PAGE -->
-    <div id="registration-page" class="page">
-        <div class="container">
-            <header class="page-header">
-                <button id="back-to-event" class="btn btn--secondary btn--glow">
-                    <span class="btn-icon">←</span>
-                    Back to Event
-                </button>
-                <h1>Register for <span id="reg-event-name" class="gradient-text">Event</span></h1>
-            </header>
-
-            <main>
-                <div class="card cosmic-card">
-                    <div class="card__body">
-                        <form id="registration-form" class="registration-form">
-                            <div class="form-group">
-                                <label for="name" class="form-label cosmic-label">Full Name *</label>
-                                <input type="text" id="name" class="form-control cosmic-input" required>
-                                <div class="error-message" id="name-error"></div>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="email" class="form-label cosmic-label">Email Address *</label>
-                                <input type="email" id="email" class="form-control cosmic-input" required>
-                                <div class="error-message" id="email-error"></div>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="phone" class="form-label cosmic-label">Phone Number *</label>
-                                <input type="tel" id="phone" class="form-control cosmic-input" required pattern="[0-9]{10}">
-                                <div class="error-message" id="phone-error"></div>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="college" class="form-label cosmic-label">College Name *</label>
-                                <input type="text" id="college" class="form-control cosmic-input" required>
-                                <div class="error-message" id="college-error"></div>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="team-name" class="form-label cosmic-label">Team Name (Optional)</label>
-                                <input type="text" id="team-name" class="form-control cosmic-input">
-                            </div>
-
-                            <div class="form-group" id="members-group" style="display: none;">
-                                <label for="num-members" class="form-label cosmic-label">Number of Members</label>
-                                <select id="num-members" class="form-control cosmic-select">
-                                    <option value="">Select number of members</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
-                                    <option value="4">4</option>
-                                    <option value="5">5</option>
-                                    <option value="6">6</option>
-                                </select>
-                            </div>
-
-                            <button type="submit" class="btn btn--primary btn--lg btn--full-width cosmic-btn">
-                                <span class="btn-text">Proceed to Payment</span>
-                                <span class="btn-glow"></span>
-                            </button>
-                        </form>
-                    </div>
-                </div>
-            </main>
-        </div>
-    </div>
-
-    <!-- PAYMENT PAGE -->
-    <div id="payment-page" class="page">
-        <div class="container">
-            <header class="page-header">
-                <h1 class="gradient-text">Payment Portal</h1>
-            </header>
-
-            <main>
-                <div class="card cosmic-card">
-                    <div class="card__header">
-                        <h3>Registration Summary</h3>
-                    </div>
-                    <div class="card__body">
-                        <div id="payment-summary"></div>
-                        
-                        <div class="payment-options">
-                            <h4>Choose Payment Method</h4>
-                            
-                            <div class="payment-option">
-                                <button class="payment-btn cosmic-payment-btn" data-method="upi">
-                                    <span class="payment-icon">📱</span>
-                                    <span>UPI / Mobile App</span>
-                                    <span class="payment-glow"></span>
-                                </button>
-                            </div>
-
-                            <div class="payment-option">
-                                <button class="payment-btn cosmic-payment-btn" data-method="qr">
-                                    <span class="payment-icon">📷</span>
-                                    <span>QR Scanner</span>
-                                    <span class="payment-glow"></span>
-                                </button>
-                            </div>
-
-                            <div class="payment-option">
-                                <button class="payment-btn cosmic-payment-btn" data-method="card">
-                                    <span class="payment-icon">💳</span>
-                                    <span>Debit / Credit Card</span>
-                                    <span class="payment-glow"></span>
-                                </button>
-                            </div>
-                        </div>
-
-                        <div id="payment-interface" style="display: none;">
-                            <div class="card payment-card cosmic-card">
-                                <div class="card__body">
-                                    <p id="payment-method-text">Complete your payment</p>
-                                    <button id="pay-now" class="btn btn--primary btn--lg btn--full-width cosmic-btn">
-                                        <span class="btn-text">Pay ₹100</span>
-                                        <span class="btn-glow"></span>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Test buttons for demo purposes -->
-                        <div class="test-controls">
-                            <p>Test Controls (Demo)</p>
-                            <div class="flex gap-8">
-                                <button id="force-success" class="btn btn--sm status--success cosmic-btn-small">Force Success</button>
-                                <button id="force-pending" class="btn btn--sm status--warning cosmic-btn-small">Force Pending</button>
-                                <button id="force-failure" class="btn btn--sm status--error cosmic-btn-small">Force Failure</button>
-                            </div>
-                        </div>
-
-                        <div id="payment-result" style="display: none;"></div>
-                    </div>
-                </div>
-            </main>
-        </div>
-    </div>
-
-    <!-- E-TICKET PAGE -->
-    <div id="ticket-page" class="page">
-        <div class="container">
-            <header class="page-header">
-                <h1 class="gradient-text">Your E-Ticket</h1>
-            </header>
-
-            <main>
-                <div class="card ticket-container cosmic-ticket" id="ticket-content">
-                    <div class="card__body ticket-body">
-                        <div class="ticket-header">
-                            <h2 class="gradient-text">Anthariksh - 2025</h2>
-                            <p>The Galaxy of Talents, Breaking Barriers with Brilliance</p>
-                            <div class="ticket-stars"></div>
-                        </div>
-                        
-                        <div class="ticket-details">
-                            <div class="ticket-field">
-                                <label>Event:</label>
-                                <span id="ticket-event">Event Name</span>
-                            </div>
-                            <div class="ticket-field">
-                                <label>Participant:</label>
-                                <span id="ticket-participant">Participant Name</span>
-                            </div>
-                            <div class="ticket-field">
-                                <label>Registration Code:</label>
-                                <span id="ticket-code" class="ticket-code neon-glow">XXXXX</span>
-                            </div>
-                            <div class="ticket-field">
-                                <label>Date:</label>
-                                <span id="ticket-date">Event Date</span>
-                            </div>
-                        </div>
-
-                        <div class="ticket-footer">
-                            <p>Department of CSE in association with Coding Club</p>
-                            <p>Please bring this ticket and valid ID on event day</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="ticket-actions">
-                    <button id="download-ticket" class="btn btn--primary cosmic-btn">
-                        <span class="btn-text">Download Ticket</span>
-                        <span class="btn-glow"></span>
-                    </button>
-                    <button id="close-ticket" class="btn btn--secondary btn--glow">Close</button>
-                </div>
-            </main>
-        </div>
-    </div>
-
-    <script src="app.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
