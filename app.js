@@ -165,4 +165,8 @@ eventsData.forEach((event, index) => {
   } else {
     nonTechEventGrid.appendChild(card);
   }
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> f352bec (Add event.html, images folder, and update existing files)
