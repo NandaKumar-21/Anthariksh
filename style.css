@@ -174,3 +174,44 @@ footer {
   font-style: italic;
 
 }
+
+@media (max-width: 768px) {
+
+  /* --- Header Adjustments --- */
+  .main-header {
+    flex-direction: column; /* Stack header items vertically */
+    padding: 20px 15px;
+    gap: 10px; /* Add a little space between stacked items */
+  }
+
+  .header-title-section {
+    padding: 0;
+  }
+
+  .logo, .naac-badge {
+    width: 90px; /* Make logos a bit smaller on mobile */
+  }
+
+  .college-name {
+    font-size: 1.4em; /* Reduce font size for college name */
+  }
+
+  .symposium-title {
+    font-size: 1.2em; /* Reduce font size for symposium title */
+  }
+
+  .symposium-tagline {
+    font-size: 0.9em; /* Reduce font size for tagline */
+  }
+
+  /* --- Event Section Adjustments --- */
+  .section-title {
+    font-size: 2em; /* Make "Technical Events" title a bit smaller */
+  }
+
+  .event-grid {
+    /* Stack event cards in a single column on small screens */
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+}
