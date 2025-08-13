@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Details</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="main-header">
+    <img src="images/kec.png" alt="College Logo" class="logo">
+    <div class="header-title-section">
+      <h1 class="college-name">KUPPAM ENGINEERING COLLEGE </h1>
+        <h4 class="college-name"> (AUTONOMOUS)</h4>
+      <h2 class="dept">DEPARTMENT OF COMPUTER SCIENCE& ENGINEERING</h2>
+      <p class="sy">organizes</p>
+    </div>
+    <img src="images/naac.png" alt="NAAC Badge" class="naac-badge">
+  </header>
+  <center><h2 class="antha">ANTHARIKSHA - 2K25</h2></center>
+  <main class="event-details">
+    <h2 id="eventTitle"></h2>
+    <p id="eventDescription"></p>
+    <h3>Guidelines</h3>
+    <ul id="eventGuidelines"></ul>
+    <a id="registerLink" href="#" target="_blank" class="register-btn">Register Now</a>
+  </main>
+
+  <footer>
+    <p>© 2025 Anthariksha Symposium | Department of CSE</p>
+  </footer>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const eventId = params.get("id");
+    const events = JSON.parse(localStorage.getItem("eventsData"));
+    const event = events[eventId];
+
+    if (event) {
+      document.title = event.title + " | Anthariksha 2025";
+      document.getElementById("eventTitle").textContent = event.title;
+      document.getElementById("eventDescription").textContent = event.description;
+      const guidelinesList = document.getElementById("eventGuidelines");
+      event.guidelines.forEach(g => {
+        const li = document.createElement("li");
+        li.textContent = g;
+        guidelinesList.appendChild(li);
+      });
+      document.getElementById("registerLink").href = event.link;
+    }
+  </script>
+</body>
+</html>
