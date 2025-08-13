@@ -175,40 +175,44 @@ footer {
 
 }
 
-/* REPLACE the previous @media block with this new one */
 @media (max-width: 768px) {
 
   /* --- Header Adjustments --- */
   .main-header {
-    flex-direction: row;          /* Set layout to horizontal */
-    justify-content: space-between; /* Space out items */
-    align-items: center;          /* Vertically align everything */
-    padding: 10px 15px;           /* Reduce padding */
-    gap: 15px;                    /* Adjust gap between items */
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;      /* Reduced padding */
+    gap: 10px;          /* Adjusted gap */
   }
 
-  /* Make logos much smaller to fit */
+  /* Make logos a little smaller */
   .logo, .naac-badge {
-    width: 60px;
-    height: 60px;
-    flex-shrink: 0; /* Prevents logos from shrinking too much */
+    width: 55px;
+    height: 55px;
+    flex-shrink: 0;
+  }
+  
+  .header-title-section {
+    line-height: 1.2; /* Tighten up the line spacing */
   }
 
-  /* Reduce font sizes for the middle text */
-  .college-name {
-    font-size: 1em;
+  /* Reduce font sizes for all text in the middle */
+  .college-name, .symposium-title {
+    font-size: 0.8em; /* Make text significantly smaller */
+    font-weight: 500;
   }
 
-  .symposium-title {
-    font-size: 0.9em;
-  }
-
-  /* Hide the tagline on mobile to save space */
+  /* Style the 'organizes' text */
   .symposium-tagline {
-    display: none;
+    display: block; /* Ensure it's visible */
+    font-size: 0.8em;
+    font-style: italic;
+    color: var(--glow-accent); /* Use the theme's accent color */
+    margin-top: 2px;
   }
 
-  /* --- Event Section Adjustments (These remain the same) --- */
+  /* --- Event Section Adjustments (Keep these) --- */
   .section-title {
     font-size: 2em;
   }
