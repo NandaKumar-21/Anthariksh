@@ -2,8 +2,11 @@ const eventsData = [
   {
     title: "Debugging",
     category: "technical",
-    description: "MAD Ad (Make A Difference Advertisement) is a creative and entertaining event where participants design and present short, impactful advertisements. The aim is to showcase innovative thinking, acting skills, and marketing creativity while promoting a product, service, or social cause in a fun and engaging way. The ads can be humorous, satirical, emotional, or thought-provoking, but they must be original and creative. This event tests participants' ability to sell an idea within a short time while keeping the audience hooked.
-",
+    description: `MAD Ad (Make A Difference Advertisement) is a creative and entertaining event where participants design and present short, impactful advertisements. 
+
+The aim is to showcase innovative thinking, acting skills, and marketing creativity while promoting a product, service, or social cause in a fun and engaging way. The ads can be humorous, satirical, emotional, or thought-provoking, but they must be original and creative. 
+
+This event tests participants' ability to sell an idea within a short time while keeping the audience hooked.`,
     guidelines: [
       "Individual or team participation (TBD)",
       "Programming language will be specified",
@@ -14,7 +17,7 @@ const eventsData = [
   {
     title: "Ideathon",
     category: "technical",
-    description: "Brainstorm and present innovative solutions to real-world problems.",
+    description: `Brainstorm and present innovative solutions to real-world problems.`,
     guidelines: [
       "Team event (3-4 members)",
       "Problem statements will be given on the spot",
@@ -25,7 +28,7 @@ const eventsData = [
   {
     title: "Logo Design",
     category: "technical",
-    description: "Showcase your creativity by designing a compelling logo based on a theme.",
+    description: `Showcase your creativity by designing a compelling logo based on a theme.`,
     guidelines: [
       "Individual participation",
       "Theme will be announced beforehand",
@@ -36,7 +39,7 @@ const eventsData = [
   {
     title: "Web Designing with AI",
     category: "technical",
-    description: "Develop a stunning and functional website incorporating AI-powered features.",
+    description: `Develop a stunning and functional website incorporating AI-powered features.`,
     guidelines: [
       "Team event (Max 2 members)",
       "Use of any framework is allowed",
@@ -47,7 +50,7 @@ const eventsData = [
   {
     title: "Paper Presentation",
     category: "technical",
-    description: "Present your research papers on cutting-edge topics in technology.",
+    description: `Present your research papers on cutting-edge topics in technology.`,
     guidelines: [
       "Team size: up to 2 members",
       "Papers must be in IEEE format",
@@ -58,7 +61,7 @@ const eventsData = [
   {
     title: "Project Expo",
     category: "technical",
-    description: "Exhibit your innovative technical projects and working models.",
+    description: `Exhibit your innovative technical projects and working models.`,
     guidelines: [
       "Team size: up to 4 members",
       "Projects from any engineering domain are welcome",
@@ -69,7 +72,7 @@ const eventsData = [
   {
     title: "Technical Quiz",
     category: "technical",
-    description: "Test your knowledge on a wide range of technical and engineering subjects.",
+    description: `Test your knowledge on a wide range of technical and engineering subjects.`,
     guidelines: [
       "Team event (2 members)",
       "Multiple rounds: Prelims and Finals",
@@ -77,12 +80,10 @@ const eventsData = [
     ],
     link: "https://forms.gle/jXujsJzudet7WznG8"
   },
-
-  // --- Non-Technical Events from the Poster ---
   {
     title: "Mad - Ad",
     category: "non-technical",
-    description: "An 'ad-making' competition to bring out your creative and humorous side.",
+    description: `An 'ad-making' competition to bring out your creative and humorous side.`,
     guidelines: [
       "Team event (3-5 members)",
       "Products/topics will be given on the spot",
@@ -93,7 +94,7 @@ const eventsData = [
   {
     title: "e-Sports",
     category: "non-technical",
-    description: "Compete in popular e-sports titles and prove your gaming prowess.",
+    description: `Compete in popular e-sports titles and prove your gaming prowess.`,
     guidelines: [
       "Solo or team-based games",
       "List of games will be announced prior to the event",
@@ -104,7 +105,7 @@ const eventsData = [
   {
     title: "Pot / Picture painting",
     category: "non-technical",
-    description: "Unleash your inner artist by painting pots or creating beautiful pictures.",
+    description: `Unleash your inner artist by painting pots or creating beautiful pictures.`,
     guidelines: [
       "Individual participation",
       "Basic materials will be provided",
@@ -115,7 +116,7 @@ const eventsData = [
   {
     title: "Photography",
     category: "non-technical",
-    description: "Capture the essence and moments of the symposium through your lens.",
+    description: `Capture the essence and moments of the symposium through your lens.`,
     guidelines: [
       "Individual participation",
       "Theme: 'Life at Anthariksha 2025'",
@@ -126,7 +127,7 @@ const eventsData = [
   {
     title: "Non-Tech Quiz",
     category: "non-technical",
-    description: "A fun quiz covering topics from pop culture, movies, music, and general knowledge.",
+    description: `A fun quiz covering topics from pop culture, movies, music, and general knowledge.`,
     guidelines: [
       "Team event (2 members)",
       "Buzzer rounds and rapid-fire questions",
@@ -137,7 +138,7 @@ const eventsData = [
   {
     title: "Memes",
     category: "non-technical",
-    description: "The ultimate meme-making challenge. Create the funniest and most relatable memes.",
+    description: `The ultimate meme-making challenge. Create the funniest and most relatable memes.`,
     guidelines: [
       "Individual participation",
       "Themes will be given during the event",
@@ -146,7 +147,6 @@ const eventsData = [
     link: "https://forms.gle/KvPUrvj8pVB5RJM29"
   }
 ];
-
 
 localStorage.setItem("eventsData", JSON.stringify(eventsData));
 
@@ -161,7 +161,7 @@ eventsData.forEach((event, index) => {
     window.location.href = `event.html?id=${index}`;
   };
 
-  if (event.category === 'technical') {
+  if (event.category === "technical") {
     techEventGrid.appendChild(card);
   } else {
     nonTechEventGrid.appendChild(card);
