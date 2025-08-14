@@ -1,6 +1,6 @@
 const eventsData = [
   {
-    title: "Debugging Competition",
+    title: "Debugging",
     category: "technical",
     description: `Test your coding skills by finding and fixing errors under pressure in a two-round debugging challenge.
 
@@ -85,7 +85,7 @@ You can choose from C, Java, or Python (one language only). Mobile phones are st
 
   // --- Non-Technical Events ---
   {
-    title: "MAD AD Competition",
+    title: "MAD Ad",
     category: "non-technical",
     description: `MAD Ad (Make A Difference Advertisement) is a creative and entertaining event where participants design and present short, impactful advertisements.
 
