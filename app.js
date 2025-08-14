@@ -2,7 +2,8 @@ const eventsData = [
   {
     title: "Debugging",
     category: "technical",
-    description: "A challenge to find and fix errors in a piece of code under time pressure.",
+    description: "MAD Ad (Make A Difference Advertisement) is a creative and entertaining event where participants design and present short, impactful advertisements. The aim is to showcase innovative thinking, acting skills, and marketing creativity while promoting a product, service, or social cause in a fun and engaging way. The ads can be humorous, satirical, emotional, or thought-provoking, but they must be original and creative. This event tests participants' ability to sell an idea within a short time while keeping the audience hooked.
+",
     guidelines: [
       "Individual or team participation (TBD)",
       "Programming language will be specified",
