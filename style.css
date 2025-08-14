@@ -179,45 +179,38 @@ footer {
 
   /* --- Header Adjustments --- */
   .main-header {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;      /* Reduced padding */
-    gap: 10px;          /* Adjusted gap */
+    flex-direction: column; /* Stack header items vertically */
+    padding: 20px 15px;
+    gap: 10px; /* Add a little space between stacked items */
   }
 
-  /* Make logos a little smaller */
-  .logo, .naac-badge {
-    width: 55px;
-    height: 55px;
-    flex-shrink: 0;
-  }
-  
   .header-title-section {
-    line-height: 1.2; /* Tighten up the line spacing */
+    padding: 0;
   }
 
-  /* Reduce font sizes for all text in the middle */
-  .college-name, .symposium-title {
-    font-size: 0.8em; /* Make text significantly smaller */
-    font-weight: 500;
+  .logo, .naac-badge {
+    width: 90px; /* Make logos a bit smaller on mobile */
   }
 
-  /* Style the 'organizes' text */
+  .college-name {
+    font-size: 1.4em; /* Reduce font size for college name */
+  }
+
+  .symposium-title {
+    font-size: 1.2em; /* Reduce font size for symposium title */
+  }
+
   .symposium-tagline {
-    display: block; /* Ensure it's visible */
-    font-size: 0.8em;
-    font-style: italic;
-    color: var(--glow-accent); /* Use the theme's accent color */
-    margin-top: 2px;
+    font-size: 0.9em; /* Reduce font size for tagline */
   }
 
-  /* --- Event Section Adjustments (Keep these) --- */
+  /* --- Event Section Adjustments --- */
   .section-title {
-    font-size: 2em;
+    font-size: 2em; /* Make "Technical Events" title a bit smaller */
   }
 
   .event-grid {
+    /* Stack event cards in a single column on small screens */
     grid-template-columns: 1fr;
     gap: 15px;
   }
