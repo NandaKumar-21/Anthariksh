@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Anthariksha 2025 - Events</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANTHARIKSHA 2K25 - Space Technology Symposium</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<<<<<<< HEAD
   <header class="main-header">
     <img src="images/kec.png" alt="College Logo" class="logo"> <div class="header-title-section">
       <h1 class="college-name">KUPPAM ENGINEERING COLLEGE (AUTONOMOUS)</h1>
@@ -14,23 +15,126 @@
       <p class="symposium-tagline">The Galaxy of Talents, Breaking Barriers with Brilliance</p>
     </div>
     <img src="images/naac.png" alt="NAAC Badge" class="naac-badge"> </header>
+=======
+    <div id="splashScreen" class="splash-screen">
+        <!-- Animated Background -->
+        <div class="space-background">
+            <div class="stars-layer"></div>
+            <div class="planet-earth"></div>
+        </div>
 
-  <main>
-    <section class="events-section">
-      <h2 class="section-title">Technical Events</h2>
-      <div class="event-grid" id="techEventGrid"></div>
-    </section>
+        <!-- Rocket and Launch Effects -->
+        <div class="rocket-container">
+            <div class="rocket">
+                <div class="rocket-body">
+                    <div class="rocket-nose"></div>
+                    <div class="rocket-middle"></div>
+                    <div class="rocket-fins"></div>
+                </div>
+                <div class="rocket-flames">
+                    <div class="flame flame-main"></div>
+                    <div class="flame flame-side-1"></div>
+                    <div class="flame flame-side-2"></div>
+                </div>
+                <div class="exhaust-trail"></div>
+            </div>
+        </div>
 
-    <section class="events-section">
-      <h2 class="section-title">Non-Technical Events</h2>
-      <div class="event-grid" id="nonTechEventGrid"></div>
-    </section>
-  </main>
+        <!-- Particle Effects -->
+        <div class="particles">
+            <div class="particle" style="--delay: 0s; --x: 10%; --y: 80%;"></div>
+            <div class="particle" style="--delay: 0.1s; --x: 20%; --y: 75%;"></div>
+            <div class="particle" style="--delay: 0.2s; --x: 30%; --y: 85%;"></div>
+            <div class="particle" style="--delay: 0.3s; --x: 70%; --y: 80%;"></div>
+            <div class="particle" style="--delay: 0.4s; --x: 80%; --y: 75%;"></div>
+            <div class="particle" style="--delay: 0.5s; --x: 90%; --y: 85%;"></div>
+        </div>
 
+        <!-- Dramatic Text Reveal -->
+        <div class="splash-text-container">
+            <h1 class="splash-title">ANTHARIKSHA 2K25</h1>
+            <div class="subtitle-reveal">National Level Symposium</div>
+        </div>
+
+        <!-- Screen Shake Effect -->
+        <div class="screen-shake-overlay"></div>
+    </div>
+>>>>>>> d58deed (Removed images folder and event.html, added kec.png, updated index.html, style.css, and app.js)
+
+    <!-- Main Website -->
+    <div id="mainSite" class="main-site hidden">
+        <!-- Header Section -->
+        <header class="header">
+            <div class="container">
+                <div class="header-top">
+                    <div class="logo-section">
+                        <div class="college-logo">
+                            <!-- Replace with college logo JPG file -->
+                            <img src="kec.png" alt="Kuppam Engineering College Logo" class="college-logo-img">
+                        </div>
+                        <div class="college-info">
+                            <h2 class="college-name">KUPPAM ENGINEERING COLLEGE</h2>
+                            <p class="college-status">(Autonomous)</p>
+                            <p class="department">Department of Computer Engineering</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="symposium-title">
+                    <h1>ANTHARIKSHA 2K25</h1>
+                    <p class="symposium-subtitle">National Level Symposium</p>
+                </div>
+            </div>
+        </header>
+
+        <!-- Events Section -->
+        <main class="events-main">
+            <div class="container">
+                <section class="events-section">
+                    <h2 class="section-title">Technical Events</h2>
+                    <div class="events-grid" id="technicalEvents">
+                        <!-- Technical events will be populated by JavaScript -->
+                    </div>
+                </section>
+
+<<<<<<< HEAD
   <footer>
     <p>© 2025 Anthariksha Symposium | Department of CSE</p>
   </footer>
+=======
+                <section class="events-section">
+                    <h2 class="section-title">Non-Technical Events</h2>
+                    <div class="events-grid" id="nonTechnicalEvents">
+                        <!-- Non-technical events will be populated by JavaScript -->
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+>>>>>>> d58deed (Removed images folder and event.html, added kec.png, updated index.html, style.css, and app.js)
 
-  <script src="app.js"></script>
+    <!-- Event Detail Modal -->
+    <div id="eventModal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalEventName"></h2>
+                <button class="close-btn" id="closeModal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="event-description">
+                    <h3>Description</h3>
+                    <p id="modalEventDescription"></p>
+                </div>
+                <div class="event-guidelines">
+                    <h3>Guidelines</h3>
+                    <ul id="modalEventGuidelines"></ul>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn--primary btn--full-width" id="registerBtn">Register Now</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
 </body>
 </html>
