@@ -8,7 +8,7 @@ const eventData = {
         "Debugging will be conducted in C, Java, or Python",
         "AI Restriction: No AI tools (Gemini, ChatGPT, etc.). If found, direct disqualification",
         "Team Size: 2–4 members",
-        "Time limit: 90 minutes",
+        "Time limit: 60 minutes",
         "Judging based on accuracy, efficiency, and code quality"
       ],
       "registerLink": "https://forms.gle/jXujsJzudet7WznG8"
