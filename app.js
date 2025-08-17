@@ -11,7 +11,7 @@ const eventData = {
         "Time limit: 60 minutes",
         "Judging based on accuracy, efficiency, and code quality"
       ],
-      "registerLink": "https://forms.gle/jXujsJzudet7WznG8"
+      "registerLink": "https://forms.gle/rqgEuu5pMPcjwhvB8"
     },
     {
       "id": "ideathon",
