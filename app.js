@@ -3,7 +3,7 @@ const eventData = {
     {
       "id": "debugging",
       "name": "Debugging",
-      "description": "Test your problem-solving skills by finding and fixing errors in given code. This challenging event will push your debugging abilities across multiple programming languages.",
+      "description":[ "Test your problem-solving skills by finding and fixing errors in given code. This challenging event will push your debugging abilities across multiple programming languages.","Event Date& Time : 03/08/2025, 3:00PM to 4:00PM"]
       "guidelines": [
         "Debugging will be conducted in C, Java, or Python",
         "AI Restriction: No AI tools (Gemini, ChatGPT, etc.). If found, direct disqualification",
