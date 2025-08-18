@@ -1272,6 +1272,12 @@ select.form-control {
   margin-bottom: var(--space-16);
   font-size: 1rem;
 }
+.event-description li::before {
+  content: '🚀';
+  position: absolute;
+  left: 0;
+  font-size: 0.9rem;
+}
 
 .event-guidelines ul {
   list-style: none;
