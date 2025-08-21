@@ -20,9 +20,12 @@ const eventData = {
       "guidelines": [
         "Team size: 2-4 members",
         "Present original ideas with practical implementation plans",
+        "The maximum slide count for this presentation is 12",
         "15 minutes presentation + 5 minutes Q&A",
         "Ideas should address real-world problems",
         "Judged on innovation, feasibility, and presentation quality"
+        "Participants must submit their PPT by September 3, 2025.",
+        "The event will be held on September 4, 2025, from 11 AM to 1 PM."
       ],
 
       "registerLink": "https://forms.gle/NcpLHMm62ihpcgMh9"
