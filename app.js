@@ -3,7 +3,7 @@ const eventData = {
     {
       "id": "debugging",
       "name": "Debugging",
-      "description": "Think you’ve got what it takes to outsmart the bugs?  Step into the coder’s arena where every error is a challenge and every fix is a victory! In this high-pressure debugging battle, you’ll face tricky, misleading, and sneaky code errors in C, Java, or Python. Only the sharpest minds and fastest fingers will survive each round. Show off your programming skills, logical thinking, and speed to claim the title of Ultimate Debugger!",
+      "description": "Think you’ve got what it takes to outsmart the bugs? Step into the coder’s arena where every error is a challenge and every fix is a victory! Join us on September 4th, 2025, from 2 PM to 3 PM for a high-pressure debugging battle where you’ll face tricky, misleading, and sneaky code errors in C, Java, or Python. Only the sharpest minds and fastest fingers will survive each round. Show off your programming skills, logical thinking, and speed to claim the title of Ultimate Debugger!",
       "guidelines": [
         "Debugging will be conducted in C, Java, or Python, Team size: 1-2 Members",
         "Round 1 (30 mins): 6 questions (easy → hard) on system; +10 per correct, −2 per error; Top 5 qualify.",
@@ -42,7 +42,7 @@ const eventData = {
     {
       "id": "web-design-ai",
       "name": "AI Web Design Challenge",
-      "description": "Turn AI into your co-pilot and race against the clock in this exciting design challenge on Sept 3rd, 2:00 PM - 3:30 PM. With one hour, one theme, and unlimited creativity, craft a stunning website that tells a story. Remember — design is the body, explanation is the soul.",
+      "description": "Turn AI into your co-pilot and race against the clock in this exciting design challenge on Sept 3rd, 2:00 PM - 3:30 PM. With one hour, one theme, and unlimited creativity, craft a stunning website that tells a story. Remember - design is the body, explanation is the soul.",
       "guidelines": [
         "Team Size: 1 - 2 members",
         "Theme: Revealed at the event start",
@@ -110,7 +110,7 @@ const eventData = {
     {
       "id": "esports",
       "name": "e-Sports",
-      "description": "Get ready to showcase your gaming skills in the ultimate virtual battleground! From strategy to lightning-fast reflexes, E-Sports is where competitive spirit meets digital entertainment. Join thrilling multiplayer matches, challenge top players, and claim your place as the champion. Whether you're a casual gamer or a pro, this is your arena to shine!",
+      "description": "Get ready to showcase your gaming skills in the ultimate virtual battleground! From strategy to lightning-fast reflexes, E-Sports is where competitive spirit meets digital entertainment. Join us on September 4th, 2025, from 3 PM to 4 PM for thrilling multiplayer matches, to challenge top players, and to claim your place as the champion. Whether you're a casual gamer or a pro, this is your arena to shine!",
       "guidelines": [
       "Free Fire tournament (Br - like old free fire - no revival system)",
       "Bring your own mobile and headphones (No headphones = phone will be muted!)",
