@@ -1,5 +1,7 @@
 const eventData = {
   "technical": [
+    { "id": "debugging", "name": "Debugging", "description": "Test your problem-solving skills by finding and fixing errors in given code. This challenging event will push your debugging abilities across multiple programming languages.", "guidelines": [ "Debugging will be conducted in C, Java, or Python", "AI Restriction: No AI tools (Gemini, ChatGPT, etc.). If found, direct disqualification", "Team Size: 2–4 members", "Time limit: 60 minutes", "Judging based on accuracy, efficiency, and code quality" ], "registerLink": "https://forms.gle/rqgEuu5pMPcjwhvB8" },
+    { "id": "logo-design", "name": "Logo Design", "description": "Unleash your creativity in designing professional logos. Participants will be given themes or company profiles and must create compelling visual identities that effectively communicate the brand message.", "guidelines": [ "Individual participation", "Use any graphic design software", "Time limit: 2 hours", "Original designs only - plagiarism will lead to disqualification", "Judged on creativity, relevance, and professional appeal" ], "registerLink": "https://forms.gle/ocG9QE98wad64NKfA" },
     {
       "id": "project-expo",
       "name": "Project Expo",
