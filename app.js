@@ -88,7 +88,7 @@ const eventData = {
       "Round 1: All teams compete → Top 15 advance to Round 2 (final battle for the crown)",
       "Winners: Top 3 teams ranked highest on the leaderboard",
       "AI restriction: No AI tools (ChatGPT, Gemini, etc.). After registration, only the team leader receives a unique 5-digit code to log in and access the quiz"
-    ]
+    ],
 
       "registerLink": "https://forms.gle/jXujsJzudet7WznG8"
     }
@@ -117,7 +117,7 @@ const eventData = {
       "Top 3 Teams who complete all rounds will be declared winners",
       "Any loud noises, disturbances, cheating, or external assistance will get your team eliminated (Fair play policy)",
       "Tournament format will be announced on event day"
-    ]
+    ],
 
       "registerLink": "https://forms.gle/QfUBsF8N9pCyyRCY9"
     },
@@ -157,7 +157,7 @@ const eventData = {
       "Round 1: All teams compete → Top 15 advance to Round 2 (final battle for the title)",
       "Winners: Top 3 teams ranked highest on the leaderboard",
       "AI restriction: No AI tools (ChatGPT, Gemini, etc.). After registration, only the team leader receives a unique 5-digit code to log in and access the quiz"
-    ]
+    ],
 
       "registerLink": "https://forms.gle/hE32XB2ZawP72sfG8"
     },
