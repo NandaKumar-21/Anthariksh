@@ -3,11 +3,11 @@ const eventData = {
     {
       "id": "debugging",
       "name": "Debugging",
-      "description": "Test your problem-solving skills by finding and fixing errors in given code. This challenging event will push your debugging abilities across multiple programming languages.",
+      "description": "Think you’ve got what it takes to outsmart the bugs?  Step into the coder’s arena where every error is a challenge and every fix is a victory! In this high-pressure debugging battle, you’ll face tricky, misleading, and sneaky code errors in C, Java, or Python. Only the sharpest minds and fastest fingers will survive each round. Show off your programming skills, logical thinking, and speed to claim the title of Ultimate Debugger!",
       "guidelines": [
         "Debugging will be conducted in C, Java, or Python",
-        "AI Restriction: No AI tools (Gemini, ChatGPT, etc.). If found, direct disqualification",
-        "Team Size: 2–4 members",
+        "Round 1 (30 mins): 6 questions (easy → hard) on system; +10 per correct, −2 per error; Top 5 qualify.",
+        "Round 2 (30 mins): Debug 2 error-filled programs on paper; fastest & most accurate win, AI Restriction: No AI tools (Gemini, ChatGPT, etc.). If found, direct disqualification",
         "Time limit: 60 minutes",
         "Judging based on accuracy, efficiency, and code quality"
       ],
@@ -72,9 +72,9 @@ const eventData = {
       "guidelines": [
         "Team size: 2–4 members",
         "Bring a working prototype or fully deployed project with a poster/chart",
-        "Poster must include project title, architecture diagram, and tools/technologies used",
+        "Poster/chart must include problem statement, methodology, and architecture diagram (you can add some more - optional)",
         "Presentation time: 5–7 minutes, followed by Q&A with judges",
-        "Judging criteria: Innovation, technical execution, clarity, and impact"
+        "Judging criteria: Creativity, innovation, technical execution, clarity, and impact"
       ],
       "registerLink": "https://forms.gle/c4isYskjKsAGmoKC9"
     },
@@ -83,13 +83,13 @@ const eventData = {
       "name": "Tech Quiz",
       "description": "This is not just a quiz — it’s a battlefield of brains. Focused on latest technology trends, it will be held on Sept 4th, 9:30 AM – 11:00 AM. The clock is ticking, the questions are waiting, and only the top minds will rise to glory.",
       "guidelines": [
-        "Team size: 2–4 members",
-        "2 online rounds on the event website",
-        "Round 1: All teams compete ,Round 2: Top 15 from Round 1 battle for the crown",
-        "Winners: Top 3 teams",
-        "AI restriction: No AI tools (ChatGPT, Gemini, etc.) – violation = disqualification",
-        "Only the team leader will receive the unique code to access the quiz"
-      ],
+      "Team size: 2–4 members",
+      "Quiz consists of 2 online rounds on the event website (Topics: C, Python, Quantum Technology, AI)",
+      "Round 1: All teams compete → Top 15 advance to Round 2 (final battle for the crown)",
+      "Winners: Top 3 teams ranked highest on the leaderboard",
+      "AI restriction: No AI tools (ChatGPT, Gemini, etc.). After registration, only the team leader receives a unique 5-digit code to log in and access the quiz"
+    ]
+
       "registerLink": "https://forms.gle/jXujsJzudet7WznG8"
     }
   ],
@@ -112,13 +112,13 @@ const eventData = {
       "name": "e-Sports",
       "description": "Get ready to showcase your gaming skills in the ultimate virtual battleground! From strategy to lightning-fast reflexes, E-Sports is where competitive spirit meets digital entertainment. Join thrilling multiplayer matches, challenge top players, and claim your place as the champion. Whether you're a casual gamer or a pro, this is your arena to shine!",
       "guidelines": [
-        "Free Fire tournament",
-        "Bring your own mobile and headphones (No headphones = phone will be muted!)",
-        "Only the Top 3 Teams will qualify to the next stage",
-        "Any loud noises or disturbances will get your team eliminated",
-        "Fair play policy - no cheating or external assistance",
-        "Tournament format will be announced on event day"
-      ],
+      "Free Fire tournament (Br - like old free fire - no revival system)",
+      "Bring your own mobile and headphones (No headphones = phone will be muted!)",
+      "Top 3 Teams who complete all rounds will be declared winners",
+      "Any loud noises, disturbances, cheating, or external assistance will get your team eliminated (Fair play policy)",
+      "Tournament format will be announced on event day"
+    ]
+
       "registerLink": "https://forms.gle/QfUBsF8N9pCyyRCY9"
     },
     {
@@ -153,12 +153,13 @@ const eventData = {
       "name": "Non-Tech Quiz",
       "description": "Not everything is about coding and circuits — here your knowledge of the world takes the spotlight. Covering sports, movies, current affairs, and trivia, this quiz will be held on Sept 3rd, 3:00 PM – 4:00 PM.",
       "guidelines": [
-        "Team size: 2–4 members",
-        "2 online rounds on the event website",
-        "Round 1: All teams compete ,Round 2: Top 15 from Round 1 fight for the title ,Winners: Top 3 teams",
-        "AI restriction: No AI tools (ChatGPT, Gemini, etc.) – violation = disqualification",
-        "Only the team leader will receive the unique code to enter the quiz"
-      ],
+      "Team size: 2–4 members",
+      "Quiz consists of 2 online rounds on the event website (Topics: Current Affairs – India, Sports, General Knowledge)",
+      "Round 1: All teams compete → Top 15 advance to Round 2 (final battle for the title)",
+      "Winners: Top 3 teams ranked highest on the leaderboard",
+      "AI restriction: No AI tools (ChatGPT, Gemini, etc.). After registration, only the team leader receives a unique 5-digit code to log in and access the quiz"
+    ]
+
       "registerLink": "https://forms.gle/hE32XB2ZawP72sfG8"
     },
     {
