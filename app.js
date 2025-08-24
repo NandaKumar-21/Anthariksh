@@ -1,186 +1,152 @@
 const eventData = {
   "technical": [
     {
-      "id": "debugging",
-      "name": "Debugging",
-      "description": "Test your problem-solving skills by finding and fixing errors in given code. This challenging event will push your debugging abilities across multiple programming languages.",
+      "id": "project-expo",
+      "name": "Project Expo",
+      "description": "Showcase your innovative technical projects and prototypes on Sept 3rd, 11:00 AM – 3:00 PM. This is your chance to bring your ideas to life and present them to a panel of experts.",
       "guidelines": [
-        "Debugging will be conducted in C, Java, or Python",
-        "AI Restriction: No AI tools (Gemini, ChatGPT, etc.). If found, direct disqualification",
-        "Team Size: 2–4 members",
-        "Time limit: 60 minutes",
-        "Judging based on accuracy, efficiency, and code quality"
+        "Team size: 2–4 members",
+        "Bring a working prototype or fully deployed project with a poster/chart",
+        "Poster must include project title, architecture diagram, and tools/technologies used",
+        "Presentation time: 5–7 minutes, followed by Q&A with judges",
+        "Judging criteria: Innovation, technical execution, clarity, and impact"
       ],
-      "registerLink": "https://forms.gle/rqgEuu5pMPcjwhvB8"
+      "registerLink": ""
+    },
+    {
+      "id": "technical-quiz",
+      "name": "Tech Quiz",
+      "description": "This is not just a quiz — it’s a battlefield of brains. Focused on latest technology trends, it will be held on Sept 4th, 9:30 AM – 11:00 AM. The clock is ticking, the questions are waiting, and only the top minds will rise to glory.",
+      "guidelines": [
+        "Team size: 2–4 members",
+        "2 online rounds on the event website",
+        "Round 1: All teams compete ,Round 2: Top 15 from Round 1 battle for the crown",
+        "Winners: Top 3 teams",
+        "AI restriction: No AI tools (ChatGPT, Gemini, etc.) – violation = disqualification",
+        "Only the team leader will receive the unique code to access the quiz"
+      ],
+      "registerLink": ""
+    },
+    {
+      "id": "paper-presentation",
+      "name": "Technical Paper Presentation",
+      "description": "Present cutting-edge research and technical papers on current technologies. This event provides a platform to share knowledge and insights on Computer Science, emerging technologies, and their real-world applications. The session will be held on Sept 3rd, 11:00 AM – 1:00 PM.",
+      "guidelines": [
+        "Team Size: Individual or 2–4 members.",
+        "Presentation: 7 mins + 2 mins Q&A.",
+        "Paper Guidelines: IEEE format; title clearly mentioned; topics may include AI, ML, Blockchain, IoT, Cybersecurity, etc.",
+        "Submission: PPT & paper to be submitted by Sept 2nd via provided Drive link.",
+        "Judging Criteria: Content quality, presentation skills, and technical depth."
+      ],
+      "registerLink": ""
     },
     {
       "id": "ideathon",
       "name": "Ideathon",
-      "description": "Present your innovative ideas and solutions to real-world problems. This event encourages creative thinking and practical application of technology to address current challenges in society, environment, or industry.",
+      "description": "Showcase your research, ideas, and technical insights in the Paper Presentation event. This is your platform to highlight problem-solving skills, propose innovative solutions, and demonstrate your expertise through a structured presentation. The event will be held on Sept 4th, 2025, from 11:00 AM – 1:00 PM.",
       "guidelines": [
-        "Team size: 2-4 members",
-        "Present original ideas with practical implementation plans",
-        "15 minutes presentation + 5 minutes Q&A",
-        "Ideas should address real-world problems",
-        "Judged on innovation, feasibility, and presentation quality"
+        "Participants must submit their PPT by Sept 3rd, 2025",
+        "Maximum slide count: 12 slides",
+        "Presentation duration: 20 minutes",
+        "PPT must clearly cover: Problem Statement, Proposed Solution, Technology Stack",
+        "Team size: 3–4 members"
       ],
-
-      "registerLink": "https://forms.gle/NcpLHMm62ihpcgMh9"
-    },
-    {
-      "id": "logo-design",
-      "name": "Logo Design",
-      "description": "Unleash your creativity in designing professional logos. Participants will be given themes or company profiles and must create compelling visual identities that effectively communicate the brand message.",
-      "guidelines": [
-        "Individual participation",
-        "Use any graphic design software",
-        "Time limit: 2 hours",
-        "Original designs only - plagiarism will lead to disqualification",
-        "Judged on creativity, relevance, and professional appeal"
-      ],
-
-      "registerLink": "https://forms.gle/ocG9QE98wad64NKfA"
+      "registerLink": ""
     },
     {
       "id": "web-design-ai",
-      "name": "Web Designing with AI",
-      "description": "Create innovative websites using AI tools and modern web technologies. Showcase how artificial intelligence can enhance user experience and design efficiency in web development projects.",
+      "name": "AI Web Design Challenge",
+      "description": "Turn AI into your co-pilot and race against the clock in this exciting design challenge on Sept 3rd, 2:00 PM – 3:30 PM. With one hour, one theme, and unlimited creativity, craft a stunning website that tells a story. Remember — design is the body, explanation is the soul.",
       "guidelines": [
-        "Team size: 2-3 members",
-        "Use of AI tools encouraged (ChatGPT, GitHub Copilot, etc.)",
-        "Create responsive, functional website",
-        "Time limit: 4 hours",
-        "Judged on design, functionality, and AI integration"
+        "Team Size: 1–2 members.",
+        "Theme: Revealed at the event start.",
+        "Time Limit: 1 hr 10 mins with system & internet provided.",
+        "AI Use: Allowed (e.g., Wix ADI, Framer AI, ChatGPT). Assets must be free-to-use/AI-generated.",
+        "Judging Criteria: Visual appeal, creativity, relevance, functionality, clarity, and Q&A."
       ],
-
-      "registerLink": "https://forms.gle/urDW64TRHMx2SdYe9"
-    },
-    {
-      "id": "paper-presentation",
-      "name": "Paper Presentation",
-      "description": "Present cutting-edge research and technical papers on current technologies. Share your knowledge and insights on topics related to computer science, emerging technologies, and their applications.",
-      "guidelines": [
-        "Individual or team of 2 members",
-        "Presentation time: 10 minutes + 3 minutes Q&A",
-        "Original research or comprehensive review papers",
-        "Topics: AI, ML, Blockchain, IoT, Cybersecurity, etc.",
-        "Judged on content quality, presentation skills, and technical depth"
-      ],
- 
-      "registerLink": "https://forms.gle/RsoNkSpyTnCobyvPA"
-    },
-    {
-      "id": "project-expo",
-      "name": "Project Expo",
-      "description": "Showcase your technical projects and innovations. Display working prototypes, software applications, or research projects that demonstrate practical application of engineering concepts.",
-      "guidelines": [
-        "Team size: 2-4 members",
-        "Working prototype or demo required",
-        "10 minutes presentation per team",
-        "Projects should demonstrate technical skill and innovation",
-        "Judged on technical complexity, innovation, and practical utility"
-      ],
- 
-      "registerLink": "https://forms.gle/c4isYskjKsAGmoKC9"
-    },
-    {
-      "id": "technical-quiz",
-      "name": "Technical Quiz",
-      "description": "Test your knowledge across various technical domains. Questions will cover computer science fundamentals, current technology trends, programming concepts, and emerging technologies.",
-      "guidelines": [
-        "Individual participation",
-        "Multiple rounds: Written preliminary + Buzzer final",
-        "Topics: Programming, Data Structures, Algorithms, Current Tech",
-        "No external help or devices allowed",
-        "Winners based on highest scores across all rounds"
-      ],
- 
-      "registerLink": "https://forms.gle/jXujsJzudet7WznG8"
+      "registerLink": ""
     }
   ],
   "non_technical": [
     {
-      "id": "mad-ad",
-      "name": "Mad-Ad",
-      "description": "Unleash your advertising creativity! Create compelling and humorous advertisements for given products or services. This event tests your marketing skills, creativity, and ability to engage audiences.",
+      "id": "non-tech-quiz",
+      "name": "Non-Tech Quiz",
+      "description": "Not everything is about coding and circuits — here your knowledge of the world takes the spotlight. Covering sports, movies, current affairs, and trivia, this quiz will be held on Sept 3rd, 3:00 PM – 4:00 PM.",
       "guidelines": [
-        "Team size: 3-5 members",
-        "Performance time: 3-4 minutes",
-        "Topic/product will be given on the spot",
-        "Props and costumes allowed",
-        "Judged on creativity, humor, and audience engagement"
+        "Team size: 2–4 members",
+        "2 online rounds on the event website",
+        "Round 1: All teams compete ,Round 2: Top 15 from Round 1 fight for the title ,Winners: Top 3 teams",
+        "AI restriction: No AI tools (ChatGPT, Gemini, etc.) – violation = disqualification",
+        "Only the team leader will receive the unique code to enter the quiz"
       ],
- 
-      "registerLink": "https://forms.gle/yqsijTrKNh1yA4eN6"
-    },
-    {
-      "id": "esports",
-      "name": "e-Sports",
-      "description": "Get ready to showcase your gaming skills in the ultimate virtual battleground! From strategy to lightning-fast reflexes, E-Sports is where competitive spirit meets digital entertainment. Join thrilling multiplayer matches, challenge top players, and claim your place as the champion. Whether you're a casual gamer or a pro, this is your arena to shine!",
-      "guidelines": [
-        "Free Fire tournament",
-        "Bring your own mobile and headphones (No headphones = phone will be muted!)",
-        "Only the Top 3 Teams will qualify to the next stage",
-        "Any loud noises or disturbances will get your team eliminated",
-        "Fair play policy - no cheating or external assistance",
-        "Tournament format will be announced on event day"
-      ],
-
-      "registerLink": "https://forms.gle/QfUBsF8N9pCyyRCY9"
-    },
-    {
-      "id": "pot-painting",
-      "name": "Pot/Picture Painting",
-      "description": "Express your artistic talents through painting! Whether decorating pots or creating pictures, showcase your creativity and artistic skills in this colorful competition.",
-      "guidelines": [
-        "Individual participation",
-        "Materials will be provided",
-        "Time limit: 2 hours",
-        "Theme will be announced on the spot",
-        "Judged on creativity, technique, and overall visual appeal"
-      ],
- 
-      "registerLink": "https://forms.gle/d5GMeKGuvKTKbHeV7"
+      "registerLink": ""
     },
     {
       "id": "photography",
-      "name": "Photography",
-      "description": "Capture the perfect moment! Show your photography skills and artistic vision. Submit your best shots that tell a story and showcase technical photography excellence.",
+      "name": "Photography Contest",
+      "description": "Capture the soul of our campus with your lens in the Photography Contest on Sept 3rd, 12:00 PM – 1:00 PM. One shot, one chance — let your picture speak louder than words.",
       "guidelines": [
-        "Individual participation",
-        "Submit 3-5 photographs per theme",
-        "Original work only - no editing software manipulation",
-        "High resolution images required",
-        "Judged on composition, creativity, and technical quality"
+        "Team Size: 1–2 members; photos must be taken on campus during the event.",
+        "Devices: Bring your own camera/phone (no devices provided).",
+        "Rules: No editing, filters, or AI use (AI = disqualification).",
+        "Requirements: Each photo must have a creative tagline + 1–2 min explanation.",
+        "Judging Criteria: Composition, creativity, relevance, tagline, and explanation quality"
       ],
- 
-      "registerLink": "https://forms.gle/1rCRPjf4SeE4b1J18"
+      "registerLink": ""
     },
     {
-      "id": "non-tech-quiz",
-      "name": "Non-Tech Quiz",
-      "description": "Test your general knowledge across various domains! Questions covering current affairs, history, geography, sports, entertainment, and general awareness.",
+      "id": "logo-design",
+      "name": "Logo Design Contest",
+      "description": "Like a hero’s grand entry in a blockbuster movie, this is your moment! Your creativity is the hero, your tools are the weapons, and the theme is the twist you’ll discover on the spot. Design a logo that speaks louder than words and leaves the judges speechless. The contest will be held on Sept 4th, 11:30 AM – 1:00 PM.",
+      "guidelines": [
+        "Team size: 1–2 participants",
+        "Theme will be revealed at the start of the event",
+        "Allowed tools: Canva, Adobe Illustrator, Photoshop, Looka, or similar",
+        "AI restriction: No AI tools (ChatGPT, Gemini, etc.) – violation = direct disqualification",
+        "Judging criteria: Creativity, relevance to theme, originality, and presentation"
+      ],
+      "registerLink": ""
+    },
+    {
+      "id": "mad-ad",
+      "name": "Mad-Ad (Advertising Event)",
+      "description": "Unleash your advertising creativity! Create compelling and humorous advertisements for given products or services. This event is designed to test your marketing skills, creativity, and ability to engage audiences. The event will be held on Sept 4th, 10:30 AM – 11:30 AM.",
+      "guidelines": [
+        "Team size: 2–5 members",
+        "Topic/product will be given on the spot",
+        "5–10 minutes will be given to each team to discuss the product before presenting",
+        "Props and costumes are allowed",
+        "Judged on creativity, humor, and audience engagement"
+      ],
+      "registerLink": ""
+    },
+    {
+      "id": "painting",
+      "name": "Painting Competition",
+      "description": "Express your artistic talents through painting! Whether decorating pots or creating pictures, this competition gives you the chance to showcase your creativity and artistic skills in a colorful way. The event will be held on Sept 3rd, 2025, from 11:00 AM – 12:30 PM.",
       "guidelines": [
         "Individual participation",
-        "Multiple rounds: Preliminary + Final",
-        "Topics: Current affairs, General knowledge, Sports, Entertainment",
-        "No external help allowed",
-        "Fastest finger first in final rounds"
+        "Participants must choose between pot decoration or picture painting",
+        "Pots and pictures will be provided, but painting materials (colors, brushes, etc.) must be brought by participants",
+        "Time limit: 1 hr 30 mins",
+        "Theme will be announced on the spot",
+        "Judged on creativity, technique, and overall visual appeal"
       ],
-      "registerLink": "https://forms.gle/hE32XB2ZawP72sfG8"
+      "registerLink": ""
     },
     {
       "id": "memes",
-      "name": "Memes",
-      "description": "Create viral-worthy memes that capture current trends and humor! Show your understanding of internet culture and ability to create relatable, funny content.",
+      "name": "Meme Creation Contest",
+      "description": "Create viral-worthy memes that capture current trends and humor! This event is all about showcasing your understanding of internet culture and your ability to create relatable, funny, and creative content. The contest will be held on Sept 3rd, 11:30 AM – 12:40 PM.",
       "guidelines": [
         "Individual participation",
-        "Create 5 original memes on given themes",
+        "Create 3-5 original memes on the given themes",
         "Use any meme creation tools or software",
-        "Content must be appropriate and non-offensive",
+        "All content must be appropriate and non-offensive",
+        "Time limit: 20–25 minutes to build the memes",
         "Judged on humor, creativity, and relatability to current trends"
       ],
-      "registerLink": "https://forms.gle/KvPUrvj8pVB5RJM29"
+      "registerLink": ""
     }
   ]
 };
