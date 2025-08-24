@@ -5,7 +5,7 @@ const eventData = {
       "name": "Debugging",
       "description": "Think you’ve got what it takes to outsmart the bugs?  Step into the coder’s arena where every error is a challenge and every fix is a victory! In this high-pressure debugging battle, you’ll face tricky, misleading, and sneaky code errors in C, Java, or Python. Only the sharpest minds and fastest fingers will survive each round. Show off your programming skills, logical thinking, and speed to claim the title of Ultimate Debugger!",
       "guidelines": [
-        "Debugging will be conducted in C, Java, or Python",
+        "Debugging will be conducted in C, Java, or Python, Team size: 1-2 Members",
         "Round 1 (30 mins): 6 questions (easy → hard) on system; +10 per correct, −2 per error; Top 5 qualify.",
         "Round 2 (30 mins): Debug 2 error-filled programs on paper; fastest & most accurate win, AI Restriction: No AI tools (Gemini, ChatGPT, etc.). If found, direct disqualification",
         "Time limit: 60 minutes",
@@ -16,25 +16,25 @@ const eventData = {
     {
       "id": "ideathon",
       "name": "Ideathon",
-      "description": "Showcase your research, ideas, and technical insights in the Paper Presentation event. This is your platform to highlight problem-solving skills, propose innovative solutions, and demonstrate your expertise through a structured presentation. The event will be held on Sept 4th, 2025, from 11:00 AM – 1:00 PM.",
+      "description": "Showcase your research, ideas, and technical insights in the Paper Presentation event. This is your platform to highlight problem-solving skills, propose innovative solutions, and demonstrate your expertise through a structured presentation. The event will be held on Sept 4th, 2025, from 11:00 AM - 1:00 PM.",
       "guidelines": [
+        "Team size: 3 - 4 members",
         "Participants must submit their PPT by Sept 3rd, 2025",
         "Maximum slide count: 12 slides",
         "Presentation duration: 20 minutes",
-        "PPT must clearly cover: Problem Statement, Proposed Solution, Technology Stack",
-        "Team size: 3–4 members"
+        "PPT must clearly cover: Problem Statement, Proposed Solution, Technology Stack"
       ],
       "registerLink": "https://forms.gle/NcpLHMm62ihpcgMh9"
     },
     {
       "id": "logo-design",
       "name": "Logo Design Contest",
-      "description": "Like a hero’s grand entry in a blockbuster movie, this is your moment! Your creativity is the hero, your tools are the weapons, and the theme is the twist you’ll discover on the spot. Design a logo that speaks louder than words and leaves the judges speechless. The contest will be held on Sept 4th, 11:30 AM – 1:00 PM.",
+      "description": "Like a hero’s grand entry in a blockbuster movie, this is your moment! Your creativity is the hero, your tools are the weapons, and the theme is the twist you’ll discover on the spot. Design a logo that speaks louder than words and leaves the judges speechless. The contest will be held on Sept 4th, 11:30 AM - 1:00 PM.",
       "guidelines": [
-        "Team size: 1–2 participants",
+        "Team size: 1 - 2 participants",
         "Theme will be revealed at the start of the event",
         "Allowed tools: Canva, Adobe Illustrator, Photoshop, Looka, or similar",
-        "AI restriction: No AI tools (ChatGPT, Gemini, etc.) – violation = direct disqualification",
+        "AI restriction: No AI tools (ChatGPT, Gemini, etc.) - violation = direct disqualification",
         "Judging criteria: Creativity, relevance to theme, originality, and presentation"
       ],
       "registerLink": "https://forms.gle/ocG9QE98wad64NKfA"
@@ -42,9 +42,9 @@ const eventData = {
     {
       "id": "web-design-ai",
       "name": "AI Web Design Challenge",
-      "description": "Turn AI into your co-pilot and race against the clock in this exciting design challenge on Sept 3rd, 2:00 PM – 3:30 PM. With one hour, one theme, and unlimited creativity, craft a stunning website that tells a story. Remember — design is the body, explanation is the soul.",
+      "description": "Turn AI into your co-pilot and race against the clock in this exciting design challenge on Sept 3rd, 2:00 PM - 3:30 PM. With one hour, one theme, and unlimited creativity, craft a stunning website that tells a story. Remember — design is the body, explanation is the soul.",
       "guidelines": [
-        "Team Size: 1–2 members",
+        "Team Size: 1 - 2 members",
         "Theme: Revealed at the event start",
         "Time Limit: 1 hr 10 mins with system & internet provided",
         "AI Use: Allowed (e.g., Wix ADI, Framer AI, ChatGPT). Assets must be free-to-use/AI-generated",
@@ -55,9 +55,9 @@ const eventData = {
     {
       "id": "paper-presentation",
       "name": "Technical Paper Presentation",
-      "description": "Present cutting-edge research and technical papers on current technologies. This event provides a platform to share knowledge and insights on Computer Science, emerging technologies, and their real-world applications. The session will be held on Sept 3rd, 11:00 AM – 1:00 PM.",
+      "description": "Present cutting-edge research and technical papers on current technologies. This event provides a platform to share knowledge and insights on Computer Science, emerging technologies, and their real-world applications. The session will be held on Sept 3rd, 11:00 AM - 1:00 PM.",
       "guidelines": [
-        "Team Size: Individual or 2–4 members",
+        "Team Size: Individual or 2 - 4 members",
         "Presentation: 7 mins + 2 mins Q&A",
         "Paper Guidelines: IEEE format; title clearly mentioned; topics may include AI, ML, Blockchain, IoT, Cybersecurity, etc.",
         "Submission: PPT & paper to be submitted by Sept 2nd via provided Drive link",
@@ -68,9 +68,9 @@ const eventData = {
     {
       "id": "project-expo",
       "name": "Project Expo",
-      "description": "Showcase your innovative technical projects and prototypes on Sept 3rd, 11:00 AM – 3:00 PM. This is your chance to bring your ideas to life and present them to a panel of experts.",
+      "description": "Showcase your innovative technical projects and prototypes on Sept 3rd, 11:00 AM - 3:00 PM. This is your chance to bring your ideas to life and present them to a panel of experts.",
       "guidelines": [
-        "Team size: 2–4 members",
+        "Team size: 2 - 4 members",
         "Bring a working prototype or fully deployed project with a poster/chart",
         "Poster/chart must include problem statement, methodology, and architecture diagram (you can add some more - optional)",
         "Presentation time: 5–7 minutes, followed by Q&A with judges",
@@ -81,9 +81,9 @@ const eventData = {
     {
       "id": "technical-quiz",
       "name": "Tech Quiz",
-      "description": "This is not just a quiz — it’s a battlefield of brains. Focused on latest technology trends, it will be held on Sept 4th, 9:30 AM – 11:00 AM. The clock is ticking, the questions are waiting, and only the top minds will rise to glory.",
+      "description": "This is not just a quiz — it’s a battlefield of brains. Focused on latest technology trends, it will be held on Sept 4th, 9:30 AM - 11:00 AM. The clock is ticking, the questions are waiting, and only the top minds will rise to glory.",
       "guidelines": [
-      "Team size: 2–4 members",
+      "Team size: 2 - 4 members",
       "Quiz consists of 2 online rounds on the event website (Topics: C, Python, Quantum Technology, AI)",
       "Round 1: All teams compete → Top 15 advance to Round 2 (final battle for the crown)",
       "Winners: Top 3 teams ranked highest on the leaderboard",
@@ -97,9 +97,9 @@ const eventData = {
     {
       "id": "mad-ad",
       "name": "Mad-Ad (Advertising Event)",
-      "description": "Unleash your advertising creativity! Create compelling and humorous advertisements for given products or services. This event is designed to test your marketing skills, creativity, and ability to engage audiences. The event will be held on Sept 4th, 10:30 AM – 11:30 AM.",
+      "description": "Unleash your advertising creativity! Create compelling and humorous advertisements for given products or services. This event is designed to test your marketing skills, creativity, and ability to engage audiences. The event will be held on Sept 4th, 10:30 AM - 11:30 AM.",
       "guidelines": [
-        "Team size: 2–5 members",
+        "Team size: 2 - 5 members",
         "Topic/product will be given on the spot",
         "5–10 minutes will be given to each team to discuss the product before presenting",
         "Props and costumes are allowed",
@@ -124,13 +124,12 @@ const eventData = {
     {
       "id": "pot-painting",
       "name": "Painting Competition",
-      "description": "Express your artistic talents through painting! Whether decorating pots or creating pictures, this competition gives you the chance to showcase your creativity and artistic skills in a colorful way. The event will be held on Sept 3rd, 2025, from 11:00 AM – 12:30 PM.",
+      "description": "Express your artistic talents through painting! Whether decorating pots or creating pictures, this competition gives you the chance to showcase your creativity and artistic skills in a colorful way. The event will be held on Sept 3rd, 2025, from 11:00 AM - 12:30 PM.",
       "guidelines": [
         "Individual participation",
         "Participants must choose between pot decoration or picture painting",
         "Pots and pictures will be provided, but painting materials (colors, brushes, etc.) must be brought by participants",
-        "Time limit: 1 and 30 hours",
-        "Theme will be announced on the spot",
+        "Theme will be announced on the spot, Time limit: 1 and 30 hours",
         "Judged on creativity, technique, and overall visual appeal"
       ],
       "registerLink": "https://forms.gle/d5GMeKGuvKTKbHeV7"
@@ -138,12 +137,12 @@ const eventData = {
     {
       "id": "photography",
       "name": "Photography Contest",
-      "description": "Capture the soul of our campus with your lens in the Photography Contest on Sept 3rd, 12:00 PM – 1:00 PM. One shot, one chance — let your picture speak louder than words.",
+      "description": "Capture the soul of our campus with your lens in the Photography Contest on Sept 3rd, 12:00 PM - 1:00 PM. One shot, one chance - let your picture speak louder than words.",
       "guidelines": [
-        "Team Size: 1–2 members; photos must be taken on campus during the event",
+        "Team Size: 1 - 2 members; photos must be taken on campus during the event",
         "Devices: Bring your own camera/phone (no devices provided)",
         "Rules: No editing, filters, or AI use (AI = disqualification)",
-        "Requirements: Each photo must have a creative tagline + 1–2 min explanation",
+        "Requirements: Each photo must have a creative tagline + 1 - 2 min explanation",
         "Judging Criteria: Composition, creativity, relevance, tagline, and explanation quality"
       ],
       "registerLink": "https://forms.gle/1rCRPjf4SeE4b1J18"
@@ -151,10 +150,10 @@ const eventData = {
     {
       "id": "non-tech-quiz",
       "name": "Non-Tech Quiz",
-      "description": "Not everything is about coding and circuits — here your knowledge of the world takes the spotlight. Covering sports, movies, current affairs, and trivia, this quiz will be held on Sept 3rd, 3:00 PM – 4:00 PM.",
+      "description": "Not everything is about coding and circuits - here your knowledge of the world takes the spotlight. Covering sports, movies, current affairs, and trivia, this quiz will be held on Sept 3rd, 3:00 PM - 4:00 PM.",
       "guidelines": [
-      "Team size: 2–4 members",
-      "Quiz consists of 2 online rounds on the event website (Topics: Current Affairs – India, Sports, General Knowledge)",
+      "Team size: 2 - 4 members",
+      "Quiz consists of 2 online rounds on the event website (Topics: Current Affairs - India, Sports, General Knowledge)",
       "Round 1: All teams compete → Top 15 advance to Round 2 (final battle for the title)",
       "Winners: Top 3 teams ranked highest on the leaderboard",
       "AI restriction: No AI tools (ChatGPT, Gemini, etc.). After registration, only the team leader receives a unique 5-digit code to log in and access the quiz"
@@ -165,13 +164,12 @@ const eventData = {
     {
       "id": "memes",
       "name": "Meme Creation Contest",
-      "description": "Create viral-worthy memes that capture current trends and humor! This event is all about showcasing your understanding of internet culture and your ability to create relatable, funny, and creative content. The contest will be held on Sept 3rd, 11:30 AM – 12:40 PM.",
+      "description": "Create viral - worthy memes that capture current trends and humor! This event is all about showcasing your understanding of internet culture and your ability to create relatable, funny, and creative content. The contest will be held on Sept 3rd, 11:30 AM - 12:40 PM.",
       "guidelines": [
         "Individual participation",
         "Create 3-5 original memes on the given themes",
         "Use any meme creation tools or software",
-        "All content must be appropriate and non-offensive",
-        "Time limit: 20–25 minutes to build the memes",
+        "All content must be appropriate and non-offensive, Time limit: 20 - 25 minutes to build the memes",
         "Judged on humor, creativity, and relatability to current trends"
       ],
       "registerLink": "https://forms.gle/KvPUrvj8pVB5RJM29"
