@@ -20,8 +20,8 @@ const eventData = {
       "guidelines": [
         "Team size: 3 - 4 members",
         "Participants must submit their PPT by Sept 3rd, 2025",
-        "Maximum slide count: 12 slides",
-        "Presentation duration: 20 minutes",
+        "Maximum slide count: 10 - 12 slides",
+        "Presentation duration: 7 mins + 2 mins Q&A",
         "PPT must clearly cover: Problem Statement, Proposed Solution, Technology Stack"
       ],
       "registerLink": "https://forms.gle/NcpLHMm62ihpcgMh9"
