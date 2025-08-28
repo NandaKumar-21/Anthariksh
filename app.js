@@ -5,7 +5,7 @@ const eventData = {
       "name": "Debugging",
       "description": "Think you’ve got what it takes to outsmart the bugs? Step into the coder’s arena where every error is a challenge and every fix is a victory! Join us on September 4th, 2025, from 2 PM to 3 PM for a high-pressure debugging battle where you’ll face tricky, misleading, and sneaky code errors in C, Java, or Python. Only the sharpest minds and fastest fingers will survive each round. Show off your programming skills, logical thinking, and speed to claim the title of Ultimate Debugger!",
       "guidelines": [
-        "Debugging will be conducted in C, Java, or Python, Team size: 1-2 Members",
+        "Debugging will be conducted in C, Java, or Python, Team size: 1 Member",
         "Round 1 (30 mins): 6 questions (easy → hard) on system; +10 per correct, −2 per error; Top 5 qualify.",
         "Round 2 (30 mins): Debug 2 error-filled programs on paper; fastest & most accurate win, AI Restriction: No AI tools (Gemini, ChatGPT, etc.). If found, direct disqualification",
         "Time limit: 60 minutes",
@@ -18,7 +18,7 @@ const eventData = {
       "name": "Ideathon",
       "description": "Showcase your research, ideas, and technical insights in the Paper Presentation event. This is your platform to highlight problem-solving skills, propose innovative solutions, and demonstrate your expertise through a structured presentation. The event will be held on Sept 4th, 2025, from 11:00 AM - 1:00 PM.",
       "guidelines": [
-        "Team size: 3 - 4 members",
+        "Team size: 1 - 3 members",
         "Participants must submit their PPT by Sept 3rd, 2025",
         "Maximum slide count: 10 - 12 slides",
         "Presentation duration: 7 mins + 2 mins Q&A",
@@ -31,7 +31,7 @@ const eventData = {
       "name": "Logo Design Contest",
       "description": "Like a hero’s grand entry in a blockbuster movie, this is your moment! Your creativity is the hero, your tools are the weapons, and the theme is the twist you’ll discover on the spot. Design a logo that speaks louder than words and leaves the judges speechless. The contest will be held on Sept 4th, 11:30 AM - 1:00 PM.",
       "guidelines": [
-        "Team size: 1 - 2 participants",
+        "Team size: 1 participant",
         "Theme will be revealed at the start of the event",
         "Allowed tools: Canva, Adobe Illustrator, Photoshop, Looka, or similar",
         "AI restriction: No AI tools (ChatGPT, Gemini, etc.) - violation = direct disqualification",
@@ -54,7 +54,7 @@ const eventData = {
     },
     {
       "id": "paper-presentation",
-      "name": "Technical Paper Presentation",
+      "name": "Paper Presentation",
       "description": "Present cutting-edge research and technical papers on current technologies. This event provides a platform to share knowledge and insights on Computer Science, emerging technologies, and their real-world applications. The session will be held on Sept 3rd, 11:00 AM - 1:00 PM.",
       "guidelines": [
         "Team Size: Individual or 2 - 4 members",
@@ -70,7 +70,7 @@ const eventData = {
       "name": "Project Expo",
       "description": "Showcase your innovative technical projects and prototypes on Sept 3rd, 11:00 AM - 3:00 PM. This is your chance to bring your ideas to life and present them to a panel of experts.",
       "guidelines": [
-        "Team size: 2 - 4 members",
+        "Team size: 3 - 4 members",
         "Bring a working prototype or fully deployed project with a poster/chart",
         "Poster/chart must include problem statement, methodology, and architecture diagram (you can add some more - optional)",
         "Presentation time: 5–7 minutes, followed by Q&A with judges",
@@ -99,7 +99,7 @@ const eventData = {
       "name": "Mad-Ad (Advertising Event)",
       "description": "Unleash your advertising creativity! Create compelling and humorous advertisements for given products or services. This event is designed to test your marketing skills, creativity, and ability to engage audiences. The event will be held on Sept 4th, 10:30 AM - 11:30 AM.",
       "guidelines": [
-        "Team size: 2 - 5 members",
+        "Team size: 2 - 3 members",
         "Topic/product will be given on the spot",
         "5–10 minutes will be given to each team to discuss the product before presenting",
         "Props and costumes are allowed",
@@ -123,7 +123,7 @@ const eventData = {
     },
     {
       "id": "pot-painting",
-      "name": "Painting Competition",
+      "name": "Pot/Painting Competition",
       "description": "Express your artistic talents through painting! Whether decorating pots or creating pictures, this competition gives you the chance to showcase your creativity and artistic skills in a colorful way. The event will be held on Sept 3rd, 2025, from 11:00 AM - 12:30 PM.",
       "guidelines": [
         "Individual participation",
@@ -139,7 +139,7 @@ const eventData = {
       "name": "Photography Contest",
       "description": "Capture the soul of our campus with your lens in the Photography Contest on Sept 3rd, 12:00 PM - 1:00 PM. One shot, one chance - let your picture speak louder than words.",
       "guidelines": [
-        "Team Size: 1 - 2 members; photos must be taken on campus during the event",
+        "Team Size: 1; photos must be taken on campus during the event",
         "Devices: Bring your own camera/phone (no devices provided)",
         "Rules: No editing, filters, or AI use (AI = disqualification)",
         "Requirements: Each photo must have a creative tagline + 1 - 2 min explanation",
@@ -166,7 +166,7 @@ const eventData = {
       "name": "Meme Creation Contest",
       "description": "Create viral - worthy memes that capture current trends and humor! This event is all about showcasing your understanding of internet culture and your ability to create relatable, funny, and creative content. The contest will be held on Sept 3rd, 11:30 AM - 12:40 PM.",
       "guidelines": [
-        "Individual participation",
+        "Team size: 1 - 2 participants",
         "Create 3-5 original memes on the given themes",
         "Use any meme creation tools or software",
         "All content must be appropriate and non-offensive, Time limit: 20 - 25 minutes to build the memes",
