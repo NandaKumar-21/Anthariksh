@@ -100,9 +100,10 @@ const eventData = {
       "description": "Unleash your advertising creativity! Create compelling and humorous advertisements for given products or services. This event is designed to test your marketing skills, creativity, and ability to engage audiences. The event will be held on Sept 4th, 10:30 AM - 11:30 AM.",
       "guidelines": [
         "Team size: 2 - 3 members",
-        "Topic/product will be given on the spot",
-        "5–10 minutes will be given to each team to discuss the product before presenting",
-        "Judged on creativity, humor, and audience engagement"
+        "Topic/product can be chosen by your own",
+        "Presentation time: 5–7 minutes, followed by Q&A with judges (Product review)",
+        "Judged on creativity, humor, and audience engagement",
+        "Props and Costumes allowed"
       ],
       "registerLink": "https://forms.gle/yqsijTrKNh1yA4eN6"
     },
