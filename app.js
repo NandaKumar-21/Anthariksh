@@ -110,7 +110,7 @@ const eventData = {
     {
       "id": "esports",
       "name": "e-Sports",
-      "description": "Get ready to showcase your gaming skills in the ultimate virtual battleground! From strategy to lightning-fast reflexes, E-Sports is where competitive spirit meets digital entertainment. Join us on September 4th, 2025, from 3 PM to 4 PM for thrilling multiplayer matches, to challenge top players, and to claim your place as the champion. Whether you're a casual gamer or a pro, this is your arena to shine!",
+      "description": "Get ready to showcase your gaming skills in the ultimate virtual battleground! From strategy to lightning-fast reflexes, E-Sports is where competitive spirit meets digital entertainment. Join us on September 4th, 2025, from 10:30 PM to 3 PM for thrilling multiplayer matches, to challenge top players, and to claim your place as the champion. Whether you're a casual gamer or a pro, this is your arena to shine!",
       "guidelines": [
       "Free Fire tournament (Br - like old free fire - no revival system)",
       "Bring your own mobile and headphones (No headphones = phone will be muted!)",
