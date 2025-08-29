@@ -102,7 +102,6 @@ const eventData = {
         "Team size: 2 - 3 members",
         "Topic/product will be given on the spot",
         "5–10 minutes will be given to each team to discuss the product before presenting",
-        "Props and costumes are allowed",
         "Judged on creativity, humor, and audience engagement"
       ],
       "registerLink": "https://forms.gle/yqsijTrKNh1yA4eN6"
