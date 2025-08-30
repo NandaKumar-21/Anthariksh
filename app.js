@@ -167,7 +167,7 @@ const eventData = {
       "description": "Create viral - worthy memes that capture current trends and humor! This event is all about showcasing your understanding of internet culture and your ability to create relatable, funny, and creative content. The contest will be held on Sept 3rd, 11:30 AM - 12:40 PM.",
       "guidelines": [
         "Team size: 1 - 2 participants",
-        "Create 3-5 original memes on the given themes",
+        "Create 3-4 original memes on given themes the theme will be announced at the start of the event",
         "Use any meme creation tools or software",
         "All content must be appropriate and non-offensive, Time limit: 20 - 25 minutes to build the memes",
         "Judged on humor, creativity, and relatability to current trends"
