@@ -10,7 +10,7 @@ const eventData = {
         "A Question Paper with Set of 6 questions will be Given , the Participants should find the error using comments",
         "Based on Finding the number of Errors and Fastest submission – Top 5 will qualify to Round 2",
         "Round 2:"
-        "Each Person will be provided a error code of 4 , the participant should submit their code after correcting , for correct output 10 points will be added , for partial output 5 points and for wrong one -2"
+        "Each Person will be provided a error code of 4 , the participant should submit their code after correcting , for correct output 10 points will be added , for partial output 5 points and for wrong one -2",
       ],
       "registerLink": "https://forms.gle/rqgEuu5pMPcjwhvB8"
     },
