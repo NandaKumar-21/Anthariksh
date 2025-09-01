@@ -6,10 +6,11 @@ const eventData = {
       "description": "Think you’ve got what it takes to outsmart the bugs? Step into the coder’s arena where every error is a challenge and every fix is a victory! Join us on September 4th, 2025, from 2 PM to 3 PM for a high-pressure debugging battle where you’ll face tricky, misleading, and sneaky code errors in C, Java, or Python. Only the sharpest minds and fastest fingers will survive each round. Show off your programming skills, logical thinking, and speed to claim the title of Ultimate Debugger!",
       "guidelines": [
         "Debugging will be conducted in C, Java, or Python, Team size: 1 Member",
-        "Round 1 (30 mins): 6 questions (easy → hard) on system; +10 per correct, −2 per error; Top 5 qualify.",
-        "Round 2 (30 mins): Debug 2 error-filled programs on paper; fastest & most accurate win, AI Restriction: No AI tools (Gemini, ChatGPT, etc.). If found, direct disqualification",
-        "Time limit: 60 minutes",
-        "Judging based on accuracy, efficiency, and code quality"
+        "Round 1: Offline (20 Minutes) (should bring their own pen)",
+        "A Question Paper with Set of 6 questions will be Given , the Participants should find the error using comments",
+        "Based on Finding the number of Errors and Fastest submission – Top 5 will qualify to Round 2",
+        "Round 2:"
+        "Each Person will be provided a error code of 4 , the participant should submit their code after correcting , for correct output 10 points will be added , for partial output 5 points and for wrong one -2"
       ],
       "registerLink": "https://forms.gle/rqgEuu5pMPcjwhvB8"
     },
