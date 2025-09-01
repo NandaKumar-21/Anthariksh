@@ -169,7 +169,7 @@ const eventData = {
         "Team size: 2 - 3 participants",
         "Create 3-4 original memes on given themes the theme will be announced at the start of the event",
         "Use any meme creation tools or software",
-        "All content must be appropriate and non-offensive, Time limit: 20 - 25 minutes to build the memes",
+        "All content must be appropriate and non-offensive, Time limit: 20 - 30 minutes to build the memes",
         "Judged on humor, creativity, and relatability to current trends"
       ],
       "registerLink": "https://forms.gle/KvPUrvj8pVB5RJM29"
