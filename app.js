@@ -114,7 +114,7 @@ const eventData = {
       "guidelines": [
       "Free Fire tournament (Br - like old free fire - no revival system)",
       "Bring your own mobile and headphones (No headphones = phone will be muted!)",
-      "Top 3 Teams who complete all rounds will be declared winners",
+      "Top 2 Teams(Winners and Runners - Up) who complete all rounds will be awarded prizes",
       "Any loud noises, disturbances, cheating, or external assistance will get your team eliminated (Fair play policy)",
       "Tournament format will be announced on event day"
     ],
