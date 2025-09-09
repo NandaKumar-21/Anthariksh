@@ -11,7 +11,7 @@ const eventData = {
         "Based on Finding the number of Errors and Fastest submission – Top 5 will qualify to Round 2",
         "Round 2: Each Person will be provided a error code of 4 , the participant should submit their code after correcting , for correct output 10 points will be added , for partial output 5 points and for wrong one -2",
       ],
-      "registerLink": "https://forms.gle/rqgEuu5pMPcjwhvB8"
+      "registerLink": ""
     },
     {
       "id": "ideathon",
@@ -24,7 +24,7 @@ const eventData = {
         "Presentation duration: 7 mins + 2 mins Q&A",
         "PPT must clearly cover: Problem Statement, Proposed Solution, Technology Stack"
       ],
-      "registerLink": "https://forms.gle/NcpLHMm62ihpcgMh9"
+      "registerLink": ""
     },
     {
       "id": "logo-design",
@@ -37,7 +37,7 @@ const eventData = {
         "AI restriction: No AI tools (ChatGPT, Gemini, etc.) - violation = direct disqualification",
         "Judging criteria: Creativity, relevance to theme, originality, and presentation"
       ],
-      "registerLink": "https://forms.gle/ocG9QE98wad64NKfA"
+      "registerLink": ""
     },
     {
       "id": "web-design-ai",
@@ -50,7 +50,7 @@ const eventData = {
         "AI Use: Allowed (e.g., Wix ADI, Framer AI, ChatGPT). Assets must be free-to-use/AI-generated",
         "Judging Criteria: Visual appeal, creativity, relevance, functionality, clarity, and Q&A"
       ],
-      "registerLink": "https://forms.gle/urDW64TRHMx2SdYe9"
+      "registerLink": ""
     },
     {
       "id": "paper-presentation",
@@ -63,7 +63,7 @@ const eventData = {
         "Submission: PPT & paper to be submitted by Sept 2nd via provided Drive link",
         "Judging Criteria: Content quality, presentation skills, and technical depth"
       ],
-      "registerLink": "https://forms.gle/RsoNkSpyTnCobyvPA"
+      "registerLink": ""
     },
     {
       "id": "project-expo",
@@ -76,7 +76,7 @@ const eventData = {
         "Presentation time: 5–7 minutes, followed by Q&A with judges",
         "Judging criteria: Creativity, innovation, technical execution, clarity, and impact"
       ],
-      "registerLink": "https://forms.gle/c4isYskjKsAGmoKC9"
+      "registerLink": ""
     },
     {
       "id": "technical-quiz",
@@ -90,7 +90,7 @@ const eventData = {
       "AI restriction: No AI tools (ChatGPT, Gemini, etc.). After registration, only the team leader receives a unique 5-digit code to log in and access the quiz"
     ],
 
-      "registerLink": "https://forms.gle/jXujsJzudet7WznG8"
+      "registerLink": ""
     }
   ],
   "non_technical": [
@@ -105,7 +105,7 @@ const eventData = {
         "Judged on creativity, humor, and audience engagement",
         "Props and Costumes allowed"
       ],
-      "registerLink": "https://forms.gle/yqsijTrKNh1yA4eN6"
+      "registerLink": ""
     },
     {
       "id": "esports",
@@ -119,7 +119,7 @@ const eventData = {
       "Tournament format will be announced on event day"
     ],
 
-      "registerLink": "https://forms.gle/QfUBsF8N9pCyyRCY9"
+      "registerLink": ""
     },
     {
       "id": "pot-painting",
@@ -132,7 +132,7 @@ const eventData = {
         "Theme will be announced on the spot, Time limit: 1 and 30 hours",
         "Judged on creativity, technique, and overall visual appeal"
       ],
-      "registerLink": "https://forms.gle/d5GMeKGuvKTKbHeV7"
+      "registerLink": ""
     },
     {
       "id": "photography",
@@ -145,7 +145,7 @@ const eventData = {
         "Requirements: Each photo must have a creative tagline + 1 - 2 min explanation",
         "Judging Criteria: Composition, creativity, relevance, tagline, and explanation quality"
       ],
-      "registerLink": "https://forms.gle/1rCRPjf4SeE4b1J18"
+      "registerLink": ""
     },
     {
       "id": "non-tech-quiz",
@@ -159,7 +159,7 @@ const eventData = {
       "AI restriction: No AI tools (ChatGPT, Gemini, etc.). After registration, only the team leader receives a unique 5-digit code to log in and access the quiz"
     ],
 
-      "registerLink": "https://forms.gle/hE32XB2ZawP72sfG8"
+      "registerLink": ""
     },
     {
       "id": "memes",
@@ -172,7 +172,7 @@ const eventData = {
         "All content must be appropriate and non-offensive, Time limit: 20 - 30 minutes to build the memes",
         "Judged on humor, creativity, and relatability to current trends"
       ],
-      "registerLink": "https://forms.gle/KvPUrvj8pVB5RJM29"
+      "registerLink": ""
     }
   ]
 };
